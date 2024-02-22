@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using FundamentalsCsharp.Class28;
 using FundamentalsCsharp.Class28.Math;
-
 namespace FundamentalsCsharp
 {
 
@@ -26,6 +25,12 @@ namespace FundamentalsCsharp
 
             //Work with arrays
             Class31.WorkingWithArray.Arrays();
+
+            //work with string
+            Class3233.Lessons.WorkWithString();
+
+            //work with enums
+            Class3435.Lessons.WorkWithEnums();
         }
     }
 

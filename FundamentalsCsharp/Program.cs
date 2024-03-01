@@ -53,6 +53,13 @@ namespace FundamentalsCsharp
             // Print the age of the person after calling the MakeOld method
             Console.WriteLine(person.Age); // The age should now be 38 (28 + 10)
 
+            //work if statements
+            Class41_42.Lessons.IfStates();
+            Class41_42.Lessons2.StateSwitch();
+
+            //challengs
+            //Challengs.Ch1.IsNumberValid();
+            Challengs.Ch2.FindTheMax();
         }
     }
 

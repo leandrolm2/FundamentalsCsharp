@@ -76,11 +76,23 @@ namespace FundamentalsCsharp
 
             // Displaying a section header for challenges
             Console.WriteLine("==================================================================================");
-            Console.WriteLine("CHALLENGES");
+            Console.WriteLine("CHALLENGES!!!");
             //Challengs.Ch1.IsNumberValid();
             //Challengs.Ch2.FindTheMax();
-            Challengs.Ch3.speedLimit();
+            //Challengs.Ch3.speedLimit();
             Console.WriteLine("==================================================================================");
+
+            //Workin with loops
+            Console.WriteLine("Working with with loops:");
+            Class44_45_46_47.Lessons.ForLoops();
+            //Class44_45_46_47.Lessons.ForEachLoops();
+            //Class44_45_46_47.Lessons.WhileLoops();
+            Console.WriteLine();
+
+            //Workin with method random
+            Console.WriteLine("Workin with method random:");
+            Class48.Lessons.RandomMethod();
+
         }
     }
 }

@@ -20,6 +20,29 @@ namespace FundamentalsCsharp.Challengs.ControlFlow
             Console.WriteLine($"There's {howMuchIsDivisible} that are divisible by 3 between 1 and 100");
         }
 
+        public static void FactoringNumber()
+        {
+            Console.Write("Please type the number you want to see the factorial: ");
+            string numberToFactorial = Console.ReadLine();
+
+            if (int.TryParse(numberToFactorial, out int isNumber))
+            {
+                int result = 1;
+
+                for (int i = isNumber; i >= 1; i--)
+                {
+                    result *= i;
+                }
+
+                Console.WriteLine($"The factorial of {isNumber} is: {result}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid integer.");
+            }
+        }
+
+
         public static void TypeANumber()
         {
             Console.WriteLine("Type a Number to sum if the previous one or type 'ok' to exit.");
@@ -108,5 +131,7 @@ namespace FundamentalsCsharp.Challengs.ControlFlow
                 continue;
             }
         }
+
+
     }
 }

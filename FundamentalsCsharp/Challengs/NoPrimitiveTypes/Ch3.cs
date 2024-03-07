@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FundamentalsCsharp.Challengs
+namespace FundamentalsCsharp.Challengs.NoPrimitiveTypes
 {
     public class Ch3
     {
-        public static void speedLimit() 
+        public static void speedLimit()
         {
             Console.WriteLine("Speed camera simulation.");
             Console.Write("Type the speed limit.(ONLY THE NUMBERS, NOT THE KM): ");

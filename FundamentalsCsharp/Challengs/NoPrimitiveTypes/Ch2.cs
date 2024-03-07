@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FundamentalsCsharp.Challengs
+namespace FundamentalsCsharp.Challengs.NoPrimitiveTypes
 {
     public class Ch2
     {
@@ -19,7 +19,7 @@ namespace FundamentalsCsharp.Challengs
 
             int secondNumber = int.Parse(Console.ReadLine());
 
-            if(firstNumber > secondNumber)
+            if (firstNumber > secondNumber)
             {
                 Console.WriteLine($"first number {firstNumber} is bigger than the second one {secondNumber}");
             }

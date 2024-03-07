@@ -77,9 +77,14 @@ namespace FundamentalsCsharp
             // Displaying a section header for challenges
             Console.WriteLine("==================================================================================");
             Console.WriteLine("CHALLENGES!!!");
-            //Challengs.Ch1.IsNumberValid();
-            //Challengs.Ch2.FindTheMax();
-            //Challengs.Ch3.speedLimit();
+            //Challengs.NoPrimitiveTypes.Ch1.IsNumberValid();
+            //Challengs.NoPrimitiveTypes.Ch2.FindTheMax();
+            //Challengs.NoPrimitiveTypes.Ch3.speedLimit();
+
+            //Challengs.ControlFlow.Ch1.HowManyDiviseBy();
+            //Challengs.ControlFlow.Ch1.TypeANumber();
+            Challengs.ControlFlow.Ch1.GuessTheNumber();
+
             Console.WriteLine("==================================================================================");
 
             //Workin with loops

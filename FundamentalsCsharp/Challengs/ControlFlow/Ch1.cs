@@ -42,6 +42,42 @@ namespace FundamentalsCsharp.Challengs.ControlFlow
             }
         }
 
+        public static void FindMaxOfNumbers()
+        {
+            Console.Write("Find the max beetwen all number you send to the program. To exit  e have the result send any letter and not a number.");
+
+            var maxNumber = 0;
+            List<int> numbers = new List<int>();
+
+            while (true)
+            {
+                Console.Write("Please enter a number  otherwise, type a letter to finish the application: ");
+
+                var hasNumber = Console.ReadLine();
+                if (String.IsNullOrEmpty(hasNumber))
+                {
+                    Console.WriteLine("blanck space not allowed, read the instrutions and try again.");
+                    continue;
+                }
+
+                if (int.TryParse(hasNumber, out int isNumber))
+                {
+                    numbers.Add(isNumber);
+                    Console.WriteLine($"You add: {isNumber} to the list of numbers!");
+                    continue;
+                }
+
+                break;
+            }
+
+
+            foreach(int number in  numbers)
+            {
+                maxNumber = maxNumber < number ? number : maxNumber;
+            }
+
+            Console.WriteLine($"The max number between the ones you sent is {maxNumber}");
+        }
 
         public static void TypeANumber()
         {

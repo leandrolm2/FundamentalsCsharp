@@ -84,7 +84,8 @@ namespace FundamentalsCsharp
             //Challengs.ControlFlow.Ch1.HowManyDiviseBy();
             //Challengs.ControlFlow.Ch1.TypeANumber();
             //Challengs.ControlFlow.Ch1.GuessTheNumber();
-            Challengs.ControlFlow.Ch1.FactoringNumber();
+            //Challengs.ControlFlow.Ch1.FactoringNumber();
+            Challengs.ControlFlow.Ch1.FindMaxOfNumbers();
 
             Console.WriteLine("==================================================================================");
 

@@ -85,7 +85,7 @@ namespace FundamentalsCsharp
             //Challengs.ControlFlow.Ch1.TypeANumber();
             //Challengs.ControlFlow.Ch1.GuessTheNumber();
             //Challengs.ControlFlow.Ch1.FactoringNumber();
-            Challengs.ControlFlow.Ch1.FindMaxOfNumbers();
+            //Challengs.ControlFlow.Ch1.FindMaxOfNumbers();
 
             Console.WriteLine("==================================================================================");
 
@@ -99,6 +99,13 @@ namespace FundamentalsCsharp
             //Workin with method random
             Console.WriteLine("Workin with method random:");
             Class48.Lessons.RandomMethod();
+
+            //Workin with Arrays
+            Console.WriteLine("Workin with Arrays:");
+            Class52_53.Lessons.WorkWithArray();
+
+            //work with List
+            Class54_55.Lessons.WorkWithlist();
 
         }
     }

@@ -87,6 +87,10 @@ namespace FundamentalsCsharp
             //Challengs.ControlFlow.Ch1.FactoringNumber();
             //Challengs.ControlFlow.Ch1.FindMaxOfNumbers();
 
+            //Challengs.ArraysAndLists.Ch1.displayFriendsName();
+            //Challengs.ArraysAndLists.Ch2.reverseName();
+            Challengs.ArraysAndLists.Ch3.sortNumbers();
+
             Console.WriteLine("==================================================================================");
 
             //Workin with loops

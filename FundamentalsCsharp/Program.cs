@@ -89,7 +89,10 @@ namespace FundamentalsCsharp
 
             //Challengs.ArraysAndLists.Ch1.displayFriendsName();
             //Challengs.ArraysAndLists.Ch2.reverseName();
-            Challengs.ArraysAndLists.Ch3.sortNumbers();
+            //Challengs.ArraysAndLists.Ch3.sortNumbers();
+            Console.WriteLine("==================================================================================");
+
+            Challengs.ArraysAndLists.Ch4.DisplayNumbers();
 
             Console.WriteLine("==================================================================================");
 

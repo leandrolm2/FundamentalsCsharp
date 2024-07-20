@@ -113,6 +113,11 @@ namespace FundamentalsCsharp
             //work with List
             Class54_55.Lessons.WorkWithlist();
 
+            //work with DateTime
+            Class59.Lessons.WorkWithDateAndTime();
+
+            //work with TimeSpan
+            Class60.Lessons.WorkWithTimeSpan();
         }
     }
 }

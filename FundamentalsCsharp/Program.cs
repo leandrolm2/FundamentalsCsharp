@@ -91,7 +91,7 @@ namespace FundamentalsCsharp
             //Challengs.ArraysAndLists.Ch2.reverseName();
             //Challengs.ArraysAndLists.Ch3.sortNumbers();
             //Challengs.ArraysAndLists.Ch4.DisplayNumbers();
-            Challengs.ArraysAndLists.Ch5.ThreeSmallestFromTheList();
+            //Challengs.ArraysAndLists.Ch5.ThreeSmallestFromTheList();
 
             Console.WriteLine("==================================================================================");
 
@@ -118,6 +118,12 @@ namespace FundamentalsCsharp
 
             //work with TimeSpan
             Class60.Lessons.WorkWithTimeSpan();
+
+            //work with String
+            Class64.Lessons.WorkWithString();
+
+            //work with summary Text
+            Class65.Lessons.DisplaySummarisingText();
         }
     }
 }

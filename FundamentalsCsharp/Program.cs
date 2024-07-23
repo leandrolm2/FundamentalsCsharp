@@ -95,7 +95,8 @@ namespace FundamentalsCsharp
 
             //Challengs.WorkWithText.Ch1.isNumberConsecutive();
             //Challengs.WorkWithText.Ch2.DisplayDuplicate();
-            Challengs.WorkWithText.Ch3.VerifyIfIsValidTime();
+            //Challengs.WorkWithText.Ch3.VerifyIfIsValidTime();
+            Challengs.WorkWithText.Ch4.PascalizeText();
 
             Console.WriteLine("==================================================================================");
 

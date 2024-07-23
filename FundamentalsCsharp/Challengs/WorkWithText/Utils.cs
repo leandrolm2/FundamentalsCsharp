@@ -41,5 +41,25 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
             Console.WriteLine(hasDuplicated);
             return hasDuplicated;
         }
+
+        public static string Pascalize(string text)
+        {
+            var words = text.Split(' ');
+            string newText = "";
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                if (i == 0)
+                {
+                    newText += words[i].ToLower();
+                    continue;
+                }
+
+                string word = words[i];
+                newText += char.ToUpper(word[0]) + word.Substring(1).ToLower();
+            }
+
+            return newText;
+        }
     }
 }

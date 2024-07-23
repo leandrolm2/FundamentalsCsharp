@@ -9,6 +9,23 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
 {
     internal class Utils
     {
+        public static bool isConsecutive(List<int> numbers)
+        {
+            bool isConsecutive = true;
+
+            for (int i = 1; i < numbers.Count; i++)
+            {
+                int diference = numbers[i] - numbers[i - 1];
+                Console.WriteLine(diference);
+                if (diference != 1 && diference != -1)
+                {
+                    isConsecutive = false;
+                    break;
+                }
+            }
+
+            return isConsecutive;
+        }
         public static List<int> VerifyNumbers(string input)
         {
             string pattern = @"\d+";

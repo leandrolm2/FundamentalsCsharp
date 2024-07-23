@@ -21,7 +21,7 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
             }
 
             List<int> numbers = Utils.VerifyNumbers(arrayStringNumber);
-            Console.WriteLine(numbers.Count);
+
             while (numbers.Count < 1)
             {
                 Console.WriteLine("Please, type any valid order of number, and we will tell you if it is a consecutive order or not");
@@ -29,20 +29,8 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
                 numbers = Utils.VerifyNumbers(arrayStringNumber);
             }
 
-            bool isConsecutive = true;
-
-            for (int i = 1; i < numbers.Count; i++)
-            {
-                int diference = numbers[i] - numbers[i - 1];
-                Console.WriteLine(diference);
-                if (diference != 1 && diference != -1) 
-                {
-                    isConsecutive = false;
-                    break; 
-                }
-            }
-            Console.WriteLine(isConsecutive);
-            var message = isConsecutive ? "The numbers you sent are consecutive" : "The numbers you sent are not consecutive";
+            
+            var message = Utils.isConsecutive(numbers) ? "The numbers you sent are consecutive" : "The numbers you sent are not consecutive";
             Console.WriteLine(message);
         }
     }

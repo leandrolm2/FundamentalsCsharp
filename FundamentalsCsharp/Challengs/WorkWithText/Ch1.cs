@@ -9,20 +9,6 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
 {
     internal class Ch1
     {
-        public static List<int> VerifyNumbers(string input)
-        {
-            string pattern = @"\d+";
-
-            List<int> numbers = new List<int>();
-
-            foreach (Match match in Regex.Matches(input, pattern))
-            {
-                numbers.Add(int.Parse(match.Value));
-            }
-
-            return numbers;
-        }
-
         public static void isNumberConsecutive()
         {
             Console.WriteLine("Type any order of number, and we will tell you if it is a consecutive order or not");
@@ -34,7 +20,15 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
                 arrayStringNumber = Console.ReadLine();
             }
 
-            List<int> numbers = VerifyNumbers(arrayStringNumber);
+            List<int> numbers = Utils.VerifyNumbers(arrayStringNumber);
+            Console.WriteLine(numbers.Count);
+            while (numbers.Count < 1)
+            {
+                Console.WriteLine("Please, type any valid order of number, and we will tell you if it is a consecutive order or not");
+                arrayStringNumber = Console.ReadLine();
+                numbers = Utils.VerifyNumbers(arrayStringNumber);
+            }
+
             bool isConsecutive = true;
 
             for (int i = 1; i < numbers.Count; i++)

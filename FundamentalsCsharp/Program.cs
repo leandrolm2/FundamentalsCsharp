@@ -93,7 +93,8 @@ namespace FundamentalsCsharp
             //Challengs.ArraysAndLists.Ch4.DisplayNumbers();
             //Challengs.ArraysAndLists.Ch5.ThreeSmallestFromTheList();
 
-            Challengs.WorkWithText.Ch1.isNumberConsecutive();
+            //Challengs.WorkWithText.Ch1.isNumberConsecutive();
+            Challengs.WorkWithText.Ch2.DisplayDuplicate();
 
             Console.WriteLine("==================================================================================");
 

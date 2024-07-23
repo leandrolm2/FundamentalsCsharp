@@ -61,5 +61,20 @@ namespace FundamentalsCsharp.Challengs.WorkWithText
 
             return newText;
         }
+
+        public static int NumberOfVowels(string text)
+        {
+            List<char> vowels = new List<char> { 'a', 'e', 'i', 'o', 'u' };
+            int vowelsNumber = 0;
+            for (int i = 0;i < text.Length; i++) 
+            {
+                if (vowels.IndexOf(text[i]) != -1)
+                {
+                    vowelsNumber++;
+                }
+            }
+
+            return vowelsNumber;
+        }
     }
 }

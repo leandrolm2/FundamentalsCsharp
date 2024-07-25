@@ -130,6 +130,12 @@ namespace FundamentalsCsharp
 
             //work with summary Text
             Class65.Lessons.DisplaySummarisingText();
+
+            //work with file and FileInfo
+            //Class73.Lessons.FileAndFileInfo();
+
+            //work with Directory and DirectoryInfo
+            //Class74.Lessons.DirectoryAndDirectoryInfo();
         }
     }
 }
